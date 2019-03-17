@@ -1,1 +1,12 @@
+The files in this folder contains code used to clean, manipulate, transform the data along with feature engineering and model training.
 
+The approach used to solve the problem is as follows:
+1. Import all datasets available.
+2. Check for missing values (Luckily no one in this case :))
+3. Do the merging of data as data is divided into two tables using primary and foreign keys.
+4. As there are multiple measurements taken for every series, we will transform or take only single measurement from every series.
+5. Measurements are extracted by grouping the series on functions : max, min, median, mean, std, absolute maximum and quantiles.
+6. We trained the model on RandomForestClassifier using some random hyper-parameters value.
+7. Checked the accuracy using 10-Fold cross validation.
+8. Checked the feature importance.
+9. Making the predictions on test set.
