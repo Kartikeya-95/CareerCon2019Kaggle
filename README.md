@@ -13,3 +13,7 @@ In this hackathon we need to predict the surface as seen by the robots based on 
 - hard_tiles
 
 We need to predict which floor the robot is on, based on the data collected by sensors like acceleration, velocity, orientation.
+
+Link : https://www.kaggle.com/c/career-con-2019
+
+Note: CSV files cannot be uploaded due to size limitation.
